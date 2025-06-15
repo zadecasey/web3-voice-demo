@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+/* ✅ New Styles */
+.wallet-connect {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
