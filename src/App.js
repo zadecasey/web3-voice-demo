@@ -1,11 +1,16 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import WalletConnect from './WalletConnect'; // ✅ Import the component
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        
+        <WalletConnect /> {/* ✅ Add this line to show the wallet login */}
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
